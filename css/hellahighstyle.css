@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #ffe8e7;
+	font-weight: 300;
+	overflow-x: hidden;
+ 
+    /* gradient bg */
+   background: #96e5e0; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #96e5e0 0%, #68c3d5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #96e5e0 0%,#68c3d5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #96e5e0 0%,#68c3d5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96e5e0', endColorstr='#68c3d5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a {
+	color: #888;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+/* Header Style */
+.input-container,
+.header-container {
+	margin: 0 auto;
+	padding: 0em;
+}
+
+.header-container > header {
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+    padding-bottom: 3em;
+}
+
+.header-container > header h1 {
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	font-weight: 300;
+}
+
+.header-container span {
+	display: block;
+	font-size: 60%;
+	color: #329caa;
+	padding: 0 0 0.6em 0.1em;
+}
+
+/* Form style */
+.input-container {
+	width: 100%;
+	margin: 0.0em auto 0 auto;
+	font-size: 4em;
+	line-height: 1.5;
+    text-align: center;
+}
+
+.input-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Fruit style */
+.fruits{
+    height: 200px;
+    width: 200px;
+}
