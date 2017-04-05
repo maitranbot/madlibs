@@ -71,3 +71,14 @@ a:active {
     height: 200px;
     width: 200px;
 }
+
+/* Fruit style */
+.name-input{
+    width: 75%;
+	margin: 0.3em auto 0 auto;
+	font-size: .75em;
+	line-height: 1.5;
+    text-align: center;
+    color: #329caa;
+    
+}
